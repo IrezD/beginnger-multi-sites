@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(218, 216, 216);
+    font-family: "Bakbak One", Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: black;
+    color: white;
+    padding: 30px 0;
+}
+
+.nav-container{
+    /*background-color: rgba(68, 62, 62, 0.541);*/
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 0px 10px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.menu ul li a:hover{
+    color: #ccc;
+    font-size: 15px;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+button{
+    background-color: rgb(31, 105, 189);
+    padding: 10px 40px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 4px;
+    color: rgb(238, 238, 238);
+}
+
+/*...Mobile Hamburger Icon..*/
+@media (max-width:900px) {
+    button{
+        display: none;
+        
+    }
+
+    .menu{
+        display: none;
+        
+    }
+
+    .mobileMenu{
+        display: block;
+        order: 4;
+        cursor: pointer;
+    }
+
+    img{
+        width: 100%;
+        height: 30px;
+    }
+
+    .box-container{
+        flex-direction: column;
+    }
+
+    
+    
+}
+
+.showcase{
+    background: url(https://media.istockphoto.com/photos/dark-blue-metal-pattern-background-picture-id1161683700?k=20&m=1161683700&s=612x612&w=0&h=YXqZgQh3W2NAuNuCrQrVQ52R3ScOz92EGIFgbj1x72U=);
+    height: 600px;
+    color: white;
+    display: flex;
+    
+    
+}
+
+.showcase-container{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 23px;
+}
+
+.showcase-container h3{
+    text-align: center;
+    font-size: 60px;
+    padding: 20px;
+}
+
+.showcase-container p{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.cta{
+    text-align: center;
+    
+}
+
+.cta a button{
+    background: green;
+    
+}
+
+.box-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.box-container p{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+.boxes{
+    padding: 30px;
+    flex-basis: 30%;
+    box-sizing: border-box;
+    
+}
+.boxes h3{
+    padding-bottom: 10px;
+}
+
+.boxes:first-child{
+    background: cadetblue;
+    
+}
+
+.boxes:nth-child(2){
+    background: darkkhaki;
+    
+}
+
+.boxes:last-child{
+    background: chocolate;
+    
+}
