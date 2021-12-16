@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:wght@400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ccc;
+}
+
+.showcase{
+    background-color: rgb(61, 63, 202);
+    height: 600px;
+    display: flex;
+    text-align: center;
+}
+
+.case-container{
+    margin: auto;
+}
+
+.case-container h2{
+    font-size: 40px;
+}
+
+@media (max-width:900px) {
+    .case-container h2{
+        font-size: 80px;
+        padding-bottom: 20px;
+        line-height: 1.2em;
+    }
+}
