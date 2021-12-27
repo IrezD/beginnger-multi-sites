@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2f2e2e;
+}
+
+.section1{
+    padding: 30px 0;
+}
+
+.sec-container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 0 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #2f2e2e;
+    font-weight: 500;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo p{
+    font-size: 11px;
+}
+
+.head-btn{
+    display: flex;
+}
+
+.head-btn a{
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.head-btn a button{
+    background-color: #791f1f00;
+    border: none;
+    padding: 0 30px;
+}
+
+.img-size{
+    height: 26px;
+}
+
+.showcase{
+    padding: 130px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1{
+    font-size: 47px;
+    flex-basis: 30%;
+}
+
+.col1 h1{
+    line-height: 1.2em;
+    font-family: "Playfair Display", Arial, Helvetica, sans-serif;
+    padding: 0 0 50px 0;
+}
+
+.col1 p{
+    font-size: 16px;
+    padding: 0 100px 0 0;
+    font-weight: 500;
+}
+
+.cta{
+    padding: 50px 0;
+}
+
+.cta button{
+    padding: 20px;
+    background-color: #2f2e2e;
+    color: white;
+}
+
+.cta a{
+    text-decoration: none;
+    color: #2f2e2e;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.col2{
+    flex-basis: 20%;
+}
+
+.col2 ul{
+    list-style: none;
+    font-size: 15px;
+}
+
+.col2 ul li{
+    padding: 20px;
+    font-weight: 800;
+}
+
+.section2 div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(204, 204, 204, 0.185) 2px 2px 2px 2px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin-right: 2%;
+    flex-basis: 20%;
+}
+
+.boxes h2{
+    padding: 10px;
+}
+
+.boxes p{
+    font-size: 14px;
+}
